@@ -1,0 +1,58 @@
+
+:root{
+	--bg-color: #2c2c3b;
+	--section-color: darkslateblue;
+	--title-color: greenyellow;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.slimes{
+    border-radius: 70px;
+}
+
+.img-containers{
+    /* height: 350px;
+    width: 350px; */
+    padding: 0;
+
+}
+
+.pics1{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 70px;
+
+    transition: all 0.5s;
+}
+
+
+.types, .ages{
+    color: #000;
+    background-color: #fff;
+    padding: 7px;
+    margin: 5px;
+
+}
+
+.summarys, .ratings{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color:darksalmon;
+}
+
+/* Hover effect for button  */
+.btns{
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.btns:hover{
+    transform: scale(1.05);
+
+}
